@@ -1,7 +1,9 @@
+import RunIR from "../components/immersiveReader/runIR";
+
 const IndexPage = () => {
     return (
         <>
-            <h1>Hello from Index page</h1>
+            <RunIR />
         </>
     );
 };
